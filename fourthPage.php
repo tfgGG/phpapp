@@ -135,7 +135,7 @@ $(document).ready(()=>{
                                             foreach( $result as $value)
                                             {
                                                 echo "<tr><th scope='row'>".$i."</th><td>".$value['room']."</td><td>".$value['date']."</td><td>".$value['time']."<button id='".$value['classid']."' class='btn btn-danger delete' name='class'>刪除</button>
-                                                <button id='".$value['classid']."' class='btn btn-info update' onclick='update1($(this))' name='class'>修改</button></td></tr>";
+                                                </td></tr>";
                                                 $object = new stdClass();
                                                 $object->room =  $value['room'];
                                                 $object->time = $value['time'];
@@ -160,7 +160,7 @@ $(document).ready(()=>{
                                         foreach( $result2 as $value)
                                         {
                                             echo "<tr bgcolor='#cee1ff'><th scope='row'>".$j."</th><td>".$value['room']."</td><td>".$value['week']."</td><td>".$value['time']."<button id='".$value['ssid']."' class='btn btn-danger delete' name='semester'>刪除</button>
-                                            <button id='".$value['ssid']."' class='btn btn-info update' onclick='update2($(this));' name='semester'>修改</button></td></tr>";                 
+                                            </td></tr>";                 
                                             $j = $j + 1;
                                             $object = new stdClass();
                                             $object->room =  $value['room'];
