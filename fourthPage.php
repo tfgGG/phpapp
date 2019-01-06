@@ -183,21 +183,6 @@ $(document).ready(()=>{
                         </tr>
 
                     </tbody>
-                    <script>
-                        function update1(obj){
-                            var r1  = '<?php printout_r1(); ?>'
-                            console.log(r1);
-                            console.log(obj);
-                            console.log(obj.attr('id'));
-                            location.href =  "http://localhost:80/phpapp/secondPage.php?classid="+obj.attr('id');
-                        }
-                        function update2(obj){
-                            var r2  = '<?php printout_r2(); ?>'
-                            console.log(r2);
-                            console.log(obj.attr('id'));
-                            location.href =  "http://localhost:80/phpapp/thirdPage.php?ssid="+obj.attr('id');
-                        }              
-                    </script>
                 </table>
 
             </div>
