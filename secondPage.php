@@ -156,19 +156,6 @@ i[class^=icon-chevron]{
                 <form action="AddClass.php" method="post" id="classform">
                     <div class="form-group">
                         <label for="">借用日期</label>
-                        <?php 
-                            /*if($_SERVER['QUERY_STRING']!=null)
-                            {
-                                echo "<div id='dateview'></div><input name='date' type='hidden' id='hiddeninput' value=''>";
-                            }/*else{
-                                $conn = mysqli_connect('localhost', 'root', '');
-                                $arrays = explode("=",$_SERVER['QUERY_STRING']);
-                                if($result=$conn->query('SELECT * FROM　class WHERE classid='.$arrays[1]))
-                                {
-
-                                }
-                            }*/
-                        ?>
                         <div id="dateview"></div>
                         <input name="date" type='hidden' id='hiddeninput' value="">
                     </div>

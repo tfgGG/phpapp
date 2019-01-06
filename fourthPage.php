@@ -145,7 +145,7 @@ $(document).ready(()=>{
                                                 $rarray[] = $object;
                                             }
                                         }    
-                                        echo json_encode($rarray);
+                                        //echo json_encode($rarray);
                                         //else 
                                           //  echo "<tr><th scope='row'><b>沒有預借紀錄</b></th><td></td><td></td><td></td></tr>";                 
                                 }
